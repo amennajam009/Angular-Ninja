@@ -4,3 +4,4 @@ function Myfunction(){
     return {name,color}
 }
 console.log(Myfunction())
+
