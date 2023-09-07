@@ -1,6 +1,5 @@
 //The One we use in function (...anything) are know as Rest parameters
 
-
 //Old method 
 
 function Myvalues(value1){
