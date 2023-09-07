@@ -17,3 +17,17 @@ function MynewValues(...values){
     }
 }
 console.log(MynewValues(20))
+
+
+//Agin new method for loop
+
+function Myothervalues(...material) {
+    for (let data of material) {
+        if (data === 'hello world') {
+            return 'hello world';
+        }
+    }
+    return 'false situation';
+}
+
+console.log(Myothervalues('sdgdgdfg'));
