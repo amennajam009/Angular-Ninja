@@ -11,3 +11,19 @@ class amen{
 }
 const AssignNameAndAge = new amen('amen',20)
 console.log(AssignNameAndAge.toString())
+
+
+//In classes we also use the getter and setter 
+
+class mycolors{
+    get color(){
+        return this.color
+    }
+    set color(newcolor){
+        console.log(`new color is ${newcolor}`)
+        this.color = newcolor
+    }
+}
+const usingnewkeyword = new mycolors()
+usingnewkeyword.color = 'blue'
+console.log(usingnewkeyword.color)
