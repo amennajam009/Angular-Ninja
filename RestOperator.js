@@ -40,3 +40,9 @@ console.log(Myothervalues('sdgdgdfg'));
 const Mynumber = [12,34,78]
 const FindMinimum = Math.min(...Mynumber)
 console.log(FindMinimum)
+
+//Rest Operator to find the max number and using it as destrut...
+
+const Myallnumbers = [45,78,56,90,44,78,90,56]
+const FindMaxOne = Math.max(...Myallnumbers)
+console.log(FindMinimum)
