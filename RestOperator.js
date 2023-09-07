@@ -19,7 +19,7 @@ function MynewValues(...values){
 console.log(MynewValues(20))
 
 
-//Agin new method for loop
+//Agin Another Methods
 
 function Myothervalues(...material) {
     for (let data of material) {
