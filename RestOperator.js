@@ -34,3 +34,9 @@ function Myothervalues(...material) {
 
 console.log(Myothervalues('sdgdgdfg'));
 
+
+//Rest Operator can also be Used as destructuring data
+
+const Mynumber = [12,34,78]
+const FindMinimum = Math.min(...Mynumber)
+console.log(FindMinimum)
