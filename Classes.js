@@ -27,3 +27,19 @@ class mycolors{
 const usingnewkeyword = new mycolors()
 usingnewkeyword.color = 'blue'
 console.log(usingnewkeyword.color)
+
+
+
+//For pratice 
+
+class myclass{
+    constructor(myname,myage){
+        this.myname=myname,
+        this.myage=myage
+    }
+    methodinmyclass(){
+        return `My Name is ${this.myname} and i'm ${this.myage}years old`
+    }
+}
+const myvalues = new myclass('amen',20)
+console.log(myvalues.methodinmyclass())
